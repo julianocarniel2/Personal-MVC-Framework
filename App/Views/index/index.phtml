@@ -1,0 +1,15 @@
+<?php
+echo '<pre>';
+
+
+echo '<h1>Index</h1>';
+foreach($this->view->dados as $indice => $produto) {
+    
+    
+    echo '<br>'.$produto['id'] . '-' . $produto['descricao'] . '-' . $produto['preco'] . '-';
+}
+
+echo '</pre>';
+
+
+?>
